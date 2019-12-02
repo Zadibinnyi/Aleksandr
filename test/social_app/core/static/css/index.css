@@ -1,0 +1,29 @@
+img {
+  border: 3px solid #87CEEB;
+}
+.container-fluid {
+  height: 100vh;
+  background-color: #6495ED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-fluid > div {
+  width: 95%;
+  min-width: 300px;
+  max-width: 700px;
+}
+.card {
+  width: 100%;
+  background-color: #D3D3D3;
+  border-radius: 30px;  
+}
+.social-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn d-block mx-auto, .btn a:hover {
+  color: white;
+  text-decoration: none ;
+}
